@@ -5,23 +5,22 @@
 
 
 /* 连接您的WIFI SSID和密码 */
-#define WIFI_SSID         "lp"
-#define WIFI_PASSWD       "15556545898"
+#define WIFI_SSID         "YOUR WIFI NAME"
+#define WIFI_PASSWD       "YOUR WIFI PASSWORD"
 
 #define LED_PIN           2
 
 /* 设备的三元组信息*/
-#define PRODUCTID       "S0Y1P5IY1X"
-#define DEVICENAME      "sl_1"
-#define DEVICEPSK       "/tc3J/rW0c7sDZGjNJQCcQ=="
+#define PRODUCTID       "YOUR PRODUCT ID"
+#define DEVICENAME      "YOUR DEVICE NAME"
+#define DEVICEPSK       "YOUR DEVICE PSK"
 
-/* 线上环境域名和端口号，不需要改 */
-#define MQTT_SERVER       "S0Y1P5IY1X.iotcloud.tencentdevices.com"
+#define MQTT_SERVER       "YOUR MQTT SERVER"
 #define MQTT_PORT         1883
 
-#define CLIENT_ID         "ESP8266|securemode=3,timestamp=1234567890,signmethod=hmacsha1|"
-#define MQTT_USRNAME      "S0Y1P5IY1Xsl_1;12010126;PVVVX;3875934966"
-#define MQTT_PASSWD       "3e687ddd2ce1dafdc9b0e2661c2dbe615fb2b5391df26cd8b60b9d97764df225;hmacsha256"
+#define CLIENT_ID         "ESP8266|securemode=3,timestamp=1234567890,signmethod=hmacsha1|"   //参考腾讯云文档生成
+#define MQTT_USRNAME      "YOUR MQTT USERNAME"
+#define MQTT_PASSWD       "YOUR MQTT PASSWORD"      //需要参考腾讯云文档生成
 
 #define TENCENTYUN_PROPERY_SUB         "$thing/down/property/S0Y1P5IY1X/"DEVICENAME             //设备属性订阅
 #define TENCENTYUN_PROPERY_PUB         "$thing/up/property/S0Y1P5IY1X/"DEVICENAME              //设备属性上报
